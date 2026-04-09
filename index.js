@@ -15,3 +15,5 @@ function createLoginTracker(userInfo) {
     return `Attempt ${attemptCount}: Login failed`;
   };
 }
+
+module.exports = { createLoginTracker };
